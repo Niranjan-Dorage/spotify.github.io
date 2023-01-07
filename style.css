@@ -12,9 +12,6 @@ body {
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    top: 0;
-    left: 0;
-    bottom: 0;
     opacity: 1;
 }
 
@@ -149,7 +146,8 @@ body {
 
 .navup {
     /* background-color: red; */
-    width: 73vw;
+    width: 72vw;
+    /* background-color: red; */
     display: flex;
     position: fixed;
     top: 2vh;
@@ -249,7 +247,7 @@ body {
     -ms-user-select: none;
     user-select: none;
     top: 12vh;
-    /* width: 10vw; */
+    /* width: 30vw; */
     font-size: 2.23vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     left: 30vw;
@@ -286,7 +284,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
-    width: 70vw;
+    width: 65vw;
+    /* background-color: green; */
 }
 
 .box {
