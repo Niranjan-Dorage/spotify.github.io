@@ -365,11 +365,15 @@ body {
 @media (min-width:0px) and (max-width:500px) {
 
     .username {
-        left: 60vw;
+        /* left: 35vw; */
+   right: 0.5vw;
     }
 
     .btn {
         visibility: hidden;
+    }
+    .upgrade{
+        left: 20vw;
     }
 
     .logoo {
@@ -416,4 +420,8 @@ body {
         left: 40vw;
         font-size: 6vw;
     }
+ .upgrade{
+    /* right: 40vw; */
+    visibility: hidden;
+ }
 }
