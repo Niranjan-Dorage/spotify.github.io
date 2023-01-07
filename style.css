@@ -3,20 +3,27 @@ body {
     margin: 0;
     /* background-color: rgb(255, 255, 255); */
     padding: 0;
+    background-position: center;
     background-image: linear-gradient(rgb(38, 38, 38), rgb(18, 18, 18), rgb(0, 0, 0));
     overflow-x: hidden;
     /* position: fixed; */
     background-repeat: no-repeat;
     background-attachment: fixed;
     content: "";
+
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     z-index: -1;
-    opacity: 1;
+    /* opacity: 1; */
+   
+}
+header::before{
+   
 }
 
 .navbar {
-    position: fixed;
+position: fixed;
+    /* bottom: 1vh; */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -145,13 +152,12 @@ body {
 }
 
 .navup {
-    /* background-color: red; */
     width: 72vw;
-    /* background-color: red; */
     display: flex;
     position: fixed;
     top: 2vh;
     z-index: 10;
+    margin: 0;
     left: 26.5vw;
 }
 
@@ -366,13 +372,14 @@ body {
 
     .username {
         /* left: 35vw; */
-   right: 0.5vw;
+        right: 0.5vw;
     }
 
     .btn {
         visibility: hidden;
     }
-    .upgrade{
+
+    .upgrade {
         left: 20vw;
     }
 
@@ -420,8 +427,9 @@ body {
         left: 40vw;
         font-size: 6vw;
     }
- .upgrade{
-    /* right: 40vw; */
-    visibility: hidden;
- }
+
+    .upgrade {
+        /* right: 40vw; */
+        visibility: hidden;
+    }
 }
