@@ -3,15 +3,13 @@ body {
     margin: 0;
     /* background-color: rgb(255, 255, 255); */
     padding: 0;
-    /* background-image: linear-gradient(rgb(38, 38, 38), rgb(18, 18, 18), rgb(0, 0, 0)); */
-background-color: rgb(0, 0, 0);
-
-
 }
 
 header::before {
-     background-color: black;
+    background-image: linear-gradient(rgb(38, 38, 38), rgb(18, 18, 18), rgb(0, 0, 0));
+    /* background: url(angryimg.png); */
     overflow-x: hidden;
+
     position: fixed;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -22,6 +20,7 @@ header::before {
     height: 100vh;
     z-index: -1;
     opacity: 1;
+
 
 }
 
@@ -460,12 +459,14 @@ header::before {
         width: 30vw;
         height: 35vw;
     }
-.songname{
-font-size:4vw;
-}
-.dis{
-    font-size:3.5vw;
-    width: 35vw;
-margin-left: 2vw;
-}
+
+    .songname {
+        font-size: 4vw;
+    }
+
+    .dis {
+        font-size: 3.5vw;
+        width: 35vw;
+        margin-left: 2vw;
+    }
 }
