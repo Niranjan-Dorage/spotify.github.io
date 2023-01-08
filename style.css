@@ -9,7 +9,7 @@ body {
 }
 
 header::before {
-    background-image: linear-gradient(rgb(38, 38, 38), rgb(18, 18, 18), rgb(0, 0, 0));
+     background-color: black;
     overflow-x: hidden;
     position: fixed;
     background-repeat: no-repeat;
