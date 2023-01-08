@@ -3,16 +3,24 @@ body {
     margin: 0;
     /* background-color: rgb(255, 255, 255); */
     padding: 0;
-    box-sizing: border-box;
-    background-image: linear-gradient(rgb(38, 38, 38), rgb(18, 18, 18), rgb(0, 0, 0));
+    /* background-image: linear-gradient(rgb(38, 38, 38), rgb(18, 18, 18), rgb(0, 0, 0)); */
+
+
+}
+
+header::before {
+    background-image: linear-gradient(rgb(38, 38, 38), rgb(18, 18, 18), rgb(0, 0, 0)); 
     overflow-x: hidden;
+    position: fixed;
     background-repeat: no-repeat;
     background-attachment: fixed;
     content: "";
     width: 100vw;
+    top: 0;
+    left: 0;
     height: 100vh;
     z-index: -1;
-    /* opacity: 1; */
+    opacity: 1;
 
 }
 
@@ -408,14 +416,6 @@ body {
 
     }
 
-    body {
-        width: 90vw;
-        height: 100vh;
-    }
-
-    .navup {
-        /* font-size: vw; */
-    }
 
 
     .songs {
