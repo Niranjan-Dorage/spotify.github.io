@@ -9,7 +9,7 @@ body {
 }
 
 header::before {
-    background-image: linear-gradient(rgb(38, 38, 38), rgb(18, 18, 18), rgb(0, 0, 0)); 
+    background-image: linear-gradient(rgb(38, 38, 38), rgb(18, 18, 18), rgb(0, 0, 0));
     overflow-x: hidden;
     position: fixed;
     background-repeat: no-repeat;
@@ -250,6 +250,7 @@ header::before {
 }
 
 .songs {
+    /* background-color: red; */
     color: white;
     position: absolute;
     -webkit-user-select: none;
@@ -294,6 +295,7 @@ header::before {
     flex-direction: row;
     flex-flow: wrap;
     width: 65vw;
+
     /* background-color: green; */
 }
 
@@ -365,7 +367,7 @@ header::before {
     margin-left: 20px;
     width: 160px;
 
-    margin-top: 2px 5px 2px 2px;
+    /* margin-top: 2px 5px 2px 2px; */
     text-align: center;
     color: rgb(147, 147, 147);
     font-size: 15px;
@@ -427,4 +429,42 @@ header::before {
         /* right: 40vw; */
         visibility: hidden;
     }
+
+    header::before {
+        background-image: linear-gradient(rgb(38, 38, 38), rgb(18, 18, 18), rgb(0, 0, 0));
+        overflow-x: hidden;
+        position: fixed;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        content: "";
+        width: 100vw;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        z-index: -1;
+        opacity: 1;
+
+
+    }
+
+    .boxes {
+        width: 50vw;
+    }
+
+    .box {
+        width: 40vw;
+    }
+
+    .pic {
+        width: 30vw;
+        height: 35vw;
+    }
+.songname{
+font-size:4vw;
+}
+.dis{
+    font-size:3.5vw;
+    width: 35vw;
+margin-left: 2vw;
+}
 }
